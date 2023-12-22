@@ -3,7 +3,10 @@ terminals opening
 default branch upon creating new repo will be called master branch. it is recommended to name it as main
 git checkout -b main	(to change branches)
 git show HEAD~3 filename (to see what changes made in previous 3rd commit from now)
-git checkout HEAD~3 filename (retrieve to comit 3 and discard changes from that commit)
-git revert [commit ID] (to revert to the mentioned ID's commit)
+1)git checkout HEAD~3 filename (to see what changes are added during comit 3. Also discard changes that are made yet not staged.)
+2) git reset HEAD filename (to unstage the changes made using git add)
+3) git revert [commit ID] (to revert to the mentioned ID's commit)
 cat filename (to see the data/text/code contained in the file)
+git log --patch filename (to see in a specific file for what each commit is changing)
+advanced: git log --patch HEAD~5 *.txt (show all changes in text files only from the 5th position of head)
 
