@@ -1,0 +1,4 @@
+Github instructions
+terminals opening
+default branch upon creating new repo will be called master branch. it is recommended to name it as main
+git checkout -b main	(to change branches)
