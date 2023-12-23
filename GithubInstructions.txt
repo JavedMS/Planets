@@ -10,3 +10,5 @@ cat filename (to see the data/text/code contained in the file)
 git log --patch filename (to see in a specific file for what each commit is changing)
 advanced: git log --patch HEAD~5 *.txt (show all changes in text files only from the 5th position of head)
 .gitignore rules: https://www.linode.com/docs/guides/how-to-use-gitignore/
+1) touch .getignore (creating); nano .getignore (adding); cat .getignore (to see);
+ 
