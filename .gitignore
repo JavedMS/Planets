@@ -1,7 +1,8 @@
-*.csv
+*.csv	
 results/
 results2/*.bin
-
+results/plots/
+!final.csv	#except final.csv
 
 
 
