@@ -13,4 +13,10 @@ advanced: git log --patch HEAD~5 *.txt (show all changes in text files only from
 1) touch .getignore (creating); nano .getignore (adding); cat .getignore (to see);
 git remote add origin SSH (to link a remote repository with local)
 
- 
+git pull --allow-unrelated-histories origin BranchName (to pull the branch if branch has unrelated histories considering remote and local versions)
+
+git remote add URL (to connect new remote repo with local repo). git remote (use to check how many repo are connected)
+
+git clone (to clone a new/whole remote repo. better to use this option as it may auto merge future pulls/push)
+git pull <repo name> <branch name>; git push <repo name> <branch name>
+

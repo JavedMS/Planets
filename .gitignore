@@ -1,7 +1,7 @@
 # IGNORE ALL DATA FILES
 *.csv
 # except final.csv
-!final.csv
+final.csv
 results2/*.bin
 results/
 results/plots/
