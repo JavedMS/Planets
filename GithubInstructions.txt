@@ -23,9 +23,16 @@ git pull <repo name> <branch name>; git push <repo name> <branch name>
 git branch -d [D to force] "branch name" (to delete a branch locally)
 git push <remote name> -d <branch name> (to delete a remote branch)
 git clean -f <filename> (to remove untracked files permanently from local repo)
+git clean -f <filename> (to remove untracked files permanently from local repo)
 git rm <folder/filename> (to remove the file or folder from github local repo)
 
 git stash (to save changes of active branch, if checkout to other branch needed. later changes could be recovered)
+
+CONDA: packageNotFoundError: can be solved using: conda config --set restore_free_channel true 
+
+To see if a specific package is installed in an environment: conda list -n <PackageName>
+
+
 git commit -ammend (to edit/make changes in the latest commit on local machine)
 To open directly a current directory into visual studio from Bash, command is: <code .>
 To add the everything of folders to commit (git add .) 
